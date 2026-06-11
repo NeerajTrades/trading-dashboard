@@ -1,0 +1,7 @@
+Date,Asset,Direction,Net PnL,Result
+2026-01-01,BTC,Long,120,Win
+2026-01-02,ETH,Short,-50,Loss
+2026-01-03,BTC,Long,200,Win
+2026-01-04,SOL,Long,-30,Loss
+2026-01-05,ETH,Short,180,Win
+2026-01-06,BTC,Long,90,Win
