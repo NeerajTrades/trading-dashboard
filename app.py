@@ -3378,7 +3378,7 @@ with risk_tab:
 
                 gauge={
                     "axis":{
-                        "range":[0,25],
+                        "range":[0,20],
                         "showticklabels":False
                     },
 
@@ -3400,12 +3400,12 @@ with risk_tab:
                         },
 
                         {
-                            "range":[10,20],
+                            "range":[10,15],
                             "color":"#ECA31A"
                         },
 
                         {
-                            "range":[20,25],
+                            "range":[15,20],
                             "color":"#F11818"
                         }
 
