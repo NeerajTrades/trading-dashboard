@@ -560,7 +560,7 @@ day_summary = day_summary.sort_values("Day")
 
 # EQUITY CURVE
 filtered_df["Equity"] = (
-    filtered_df["Trade Amount"]
+    filtered_df["Broker Balance"]
 )
 # RUNNING PEAK
 filtered_df["Peak Equity"] = (
