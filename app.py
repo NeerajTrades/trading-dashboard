@@ -209,7 +209,7 @@ filtered_df = df[
 trade_events = filtered_df[
     [
         "Date",
-        "Trade Amount",
+        "Broker Balance",
         "Result",
         "Asset",
         "Net PnL",
@@ -219,9 +219,10 @@ trade_events = filtered_df[
 
 trade_events["Event"] = "Trade"
 trade_events["Cash Flow"] = 0
+
 trade_events.rename(
     columns={
-        "Trade Amount": "Trading Capital"
+        "Broker Balance": "Trading Capital"
     },
     inplace=True
 )
